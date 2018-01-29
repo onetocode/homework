@@ -1,9 +1,9 @@
-x1 = int(input('Введите координату x1:'))
-y1 = int(input('Введите координату y1:'))
-x2 = int(input('Введите координату x2:'))
-y2 = int(input('Введите координату y2:'))
-x3 = int(input('Введите координату x3:'))
-y3 = int(input('Введите координату y3:'))
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+x3 = int(input())
+y3 = int(input())
 X1 = x2 - x1
 Y1 = y2 - y1
 X2 = x3 - x1

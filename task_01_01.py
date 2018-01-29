@@ -1,4 +1,4 @@
-g = int(input('Введите год:'))
+g = int(input())
 nv1 = g % 400
 nv2 = g % 100
 nv3 = g % 4
