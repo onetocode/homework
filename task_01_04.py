@@ -10,21 +10,20 @@ X2 = x3 - x1
 Y2 = y3 - y1
 X3 = x3 - x2
 Y3 = y3 - y2
-O1 = X1 * Y1
+O1 = X1 * X1 + Y1 * Y1
 if O1 < 0:
     O1 = O1 * -1
-O2 = X2 * Y2
+O2 = X2 * X2 + Y2 * Y2
 if O2 < 0:
     O2 = O2 * -1
-O3 = X3 * Y3
+O3 = X3 * X3 + Y3 * Y3
 if O3 < 0:
     O3 = O3 *-1
-if O1 == O2:
+if O1 == O2 + O3:
     print('yes')
-if O2 == O3:
+if O2 == O3 + O1:
     print('yes')
-if O1 == O3:
+if O3 == O1 + O2:
     print('yes')
-else:
+if O1 != O2 + O3 and O2 != O3 + O1 and O3 != O1 + O2:
     print('no')
-exit()
