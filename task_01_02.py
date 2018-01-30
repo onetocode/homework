@@ -1,6 +1,6 @@
 t = int(input())
 m = int(input())
-while t >= 0.1 and m >= 0.1: #При 0 цикл доходит до -1
+while t >= 0.1 and m >= 0.1:
     t -= 1
     m -= 0.5
     print(t)
